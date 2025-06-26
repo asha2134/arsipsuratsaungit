@@ -1,0 +1,52 @@
+/* Tabel surat keluar */
+.table-container {
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px 16px;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+  font-size: 14px;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Tombol aksi */
+a[href*="edit"], a[href*="hapus"] {
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+  color: white;
+  margin-right: 4px;
+}
+
+a[href*="edit"] {
+  background-color: #28a745;
+}
+
+a[href*="hapus"] {
+  background-color: #dc3545;
+}

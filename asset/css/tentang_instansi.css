@@ -1,0 +1,43 @@
+/* Gaya untuk halaman Tentang Instansi */
+
+.content {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border: none;
+}
+
+.card-body {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+}
+
+.card-body p {
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-weight: bold;
+    color: #2a4dbb;
+}
+
+img {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .content {
+        padding: 1rem;
+    }
+
+    .card-body {
+        font-size: 15px;
+    }
+}

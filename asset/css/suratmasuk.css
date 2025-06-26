@@ -1,0 +1,22 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border: 1px solid #ddd; /* border luar tabel */
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd; /* border antar sel */
+}
+
+table th {
+  background-color: #4e73df;
+  color: white;
+}
+
+table tr:hover {
+  background-color: #f9f9f9;
+}
